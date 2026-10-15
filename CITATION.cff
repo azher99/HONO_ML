@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+
+title: >-
+  Explainable Machine Learning Analysis of Indoor HONO Formation: Impacts of
+  Combustion, Occupancy and Ventilation - figure reproduction code
+
+abstract: >-
+  Analysis and plotting code reproducing the main-text and supporting-
+  information figures of Deng et al., "Explainable Machine Learning Analysis
+  of Indoor HONO Formation: Impacts of Combustion, Occupancy and Ventilation",
+  under review at Environmental Science & Technology.
+
+authors:
+  - family-names: "Deng"
+    given-names: "Qingxin"
+  - family-names: "Hassan"
+    given-names: "Muhammad Azher"
+    email: "azher@tju.edu.cn"
+  - family-names: "He"
+    given-names: "Bowen"
+  - family-names: "Ran"
+    given-names: "Zhu"
+  - family-names: "Ren"
+    given-names: "Yan"
+  - family-names: "Romanias"
+    given-names: "Manolis"
+  - family-names: "Gandolfo"
+    given-names: "Adrien"
+  - family-names: "Zheng"
+    given-names: "Peng"
+  - family-names: "Yuan"
+    given-names: "Bin"
+  - family-names: "Liu"
+    given-names: "Jiangping"
+  - family-names: "Gligorovski"
+    given-names: "Sasho"
+
+contact:
+  - family-names: "Hassan"
+    given-names: "Muhammad Azher"
+    email: "azher@tju.edu.cn"
+
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-15"
+
+keywords:
+  - indoor air quality
+  - nitrous acid
+  - HONO
+  - machine learning
+  - CatBoost
+  - SHAP
+  - explainable AI
+  - indoor chemistry

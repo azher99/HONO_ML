@@ -1,0 +1,13 @@
+# Versions used during development of the published analysis.
+# Later versions are generally compatible; see README for reproducibility notes.
+numpy>=1.24,<3.0
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+catboost>=1.2
+xgboost>=2.0
+shap>=0.44
+openpyxl>=3.1
+joblib>=1.3
