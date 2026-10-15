@@ -47,18 +47,6 @@ HONO-ML-indoor/
 └── LICENSE
 ```
 
-| Script | Figure | Location in paper |
-|---|---|---|
-| `figure02_model_performance/run_figure02.py` | Figure 2 | Main text |
-| `figure03_shap_summary/run_figure03.py` | Figure 3 | Main text |
-| `figure04_two_way_pdp/run_figure04.py` | Figure 4 | Main text |
-| `figure05_shap_dependence/run_figure05.py` | Figure 5 | Main text |
-| `figureS3_correlation_matrix/run_figureS3.py` | Figure S3 | Supporting information |
-| `figureS4_shap_rank_stability/run_figureS4.py` | Figure S4 | Supporting information |
-| `figureS5_pdp_ice/run_figureS5.py` | Figure S5 | Supporting information |
-
----
-
 ## Data availability
 
 The measured raw dataset is **not** distributed with this repository. Scripts
@@ -70,35 +58,12 @@ corresponding author on reasonable request
 
 ## Installation
 
-Python 3.9 or newer is recommended.
+Python 3.10 or newer is recommended.
 
 ```bash
 
 pip install -r requirements.txt
 ```
-
----
-
-## Usage
-
-Run any figure script from the repository root:
-
-```bash
-python figure02_model_performance/run_figure02.py
-python figure03_shap_summary/run_figure03.py
-python figure04_two_way_pdp/run_figure04.py
-python figure05_shap_dependence/run_figure05.py
-
-python figureS3_correlation_matrix/run_figureS3.py
-python figureS4_shap_rank_stability/run_figureS4.py
-python figureS5_pdp_ice/run_figureS5.py
-```
-
-Each script writes a 600 dpi PNG to `outputs/figures/`, and prints the key
-numerical results (model metrics, SHAP rankings) to the console.
-
-Scripts are independent; each performs its own data loading, splitting and
-model fitting, so they can be run in any order.
 
 ---
 
@@ -121,12 +86,6 @@ model fitting, so they can be run in any order.
    (Figures 3 and 5), partial dependence and ICE curves (Figures 4 and S5), and
    a repeated-split check on the stability of the SHAP ranking (Figure S4).
 
-### Reproducibility
-
-Minor numerical differences may still arise across library
-versions and hardware, particularly in the randomised search.
-Versions used during development are pinned in `requirements.txt`.
-
 ### Interpretation note
 
 SHAP values and partial dependence describe the behaviour of the fitted model
@@ -147,7 +106,7 @@ updated with the final DOI on publication.
 
 Questions about the code should be directed to Muhammad Azher Hassan
 (azher@tju.edu.cn). Questions about the measurements or the study design
-should be directed to the corresponding authors of the manuscript.
+should be directed to the other corresponding authors of the manuscript.
 
 ## License
 
